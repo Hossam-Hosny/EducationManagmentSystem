@@ -1,0 +1,15 @@
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\bin\Debug\net8.0\Faculty-Student.Application.deps.json
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\bin\Debug\net8.0\Faculty-Student.Application.dll
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\bin\Debug\net8.0\Faculty-Student.Application.pdb
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\bin\Debug\net8.0\Faculty-Student.Domain.dll
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\bin\Debug\net8.0\Faculty-Student.Domain.pdb
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\obj\Debug\net8.0\Faculty-Student.Application.csproj.AssemblyReference.cache
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\obj\Debug\net8.0\Faculty-Student.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\obj\Debug\net8.0\Faculty-Student.Application.AssemblyInfoInputs.cache
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\obj\Debug\net8.0\Faculty-Student.Application.AssemblyInfo.cs
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\obj\Debug\net8.0\Faculty-Student.Application.csproj.CoreCompileInputs.cache
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\obj\Debug\net8.0\Faculty-.E54AABB0.Up2Date
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\obj\Debug\net8.0\Faculty-Student.Application.dll
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\obj\Debug\net8.0\refint\Faculty-Student.Application.dll
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\obj\Debug\net8.0\Faculty-Student.Application.pdb
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Application\obj\Debug\net8.0\ref\Faculty-Student.Application.dll

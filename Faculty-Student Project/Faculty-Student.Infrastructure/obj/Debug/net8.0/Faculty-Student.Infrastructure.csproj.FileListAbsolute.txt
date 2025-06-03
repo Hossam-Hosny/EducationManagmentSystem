@@ -1,0 +1,17 @@
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\bin\Debug\net8.0\Faculty-Student.Infrastructure.deps.json
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\bin\Debug\net8.0\Faculty-Student.Infrastructure.dll
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\bin\Debug\net8.0\Faculty-Student.Infrastructure.pdb
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\bin\Debug\net8.0\Faculty-Student.Application.dll
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\bin\Debug\net8.0\Faculty-Student.Domain.dll
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\bin\Debug\net8.0\Faculty-Student.Application.pdb
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\bin\Debug\net8.0\Faculty-Student.Domain.pdb
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\Faculty-Student.Infrastructure.csproj.AssemblyReference.cache
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\Faculty-Student.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\Faculty-Student.Infrastructure.AssemblyInfoInputs.cache
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\Faculty-Student.Infrastructure.AssemblyInfo.cs
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\Faculty-Student.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\Faculty-.FDDBB6A9.Up2Date
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\Faculty-Student.Infrastructure.dll
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\refint\Faculty-Student.Infrastructure.dll
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\Faculty-Student.Infrastructure.pdb
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\ref\Faculty-Student.Infrastructure.dll
