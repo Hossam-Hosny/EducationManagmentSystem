@@ -1,4 +1,5 @@
 ﻿using Faculty_Student.Domain.IRepositories;
+using Faculty_Student.Infrastructure.DbContext;
 using Faculty_Student.Infrastructure.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -8,7 +9,8 @@ public static class ServiceCollectionExtensions
 {
     public static void AddInfrastructure( this IServiceCollection _servicecs)
     {
-        
+        _servicecs.AddScoped<IDbContext, AppDbContext>();
+
 
         _servicecs.AddScoped<IUserRepository, UserRepository>();
         _servicecs.AddScoped<ISubmissionRepository, SubmissionRepository>();

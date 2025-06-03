@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 
 
-namespace Faculty_Student.Infrastructure.AppDbContext;
+namespace Faculty_Student.Infrastructure.DbContext;
 
 public class AppDbContext(IConfiguration _config) : IDbContext
 {

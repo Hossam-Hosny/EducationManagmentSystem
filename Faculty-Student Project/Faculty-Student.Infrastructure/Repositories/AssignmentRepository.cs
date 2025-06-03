@@ -9,6 +9,53 @@ namespace Faculty_Student.Infrastructure.Repositories;
 
 internal class AssignmentRepository(IDbContext _db, ILogger<AssignmentRepository> _logger) : IAssignmentRepository
 {
+    public async Task<int> DeleteAssignmentAsync(int assignmentId)
+    {
+
+        using (var connection = _db.CreateConnection())
+        {
+            _logger.LogInformation($"Deleting Assignment of Id = {assignmentId}");
+
+            return await connection.ExecuteAsync("sp_DeleteAssignment", new { ASSIGNMENTID = assignmentId },
+                commandType: CommandType.StoredProcedure);
+
+
+        }
+
+    }
+
+    public async Task<ASSIGNMENTS?> GetAssignmentByFacultyIdAsync(int facultyId)
+    {
+
+        using (var connection = _db.CreateConnection())
+        {
+            _logger.LogInformation($"Getting Assignments of Faculty id  {facultyId} from database");
+
+            return await connection.QueryFirstOrDefaultAsync<ASSIGNMENTS>("sp_GetAssignmentsByFaculty",
+                new { FACULTYID = facultyId },
+                commandType: CommandType.StoredProcedure);
+
+
+
+        }
+    }
+
+    public async Task<ASSIGNMENTS?> GetAssignmentByIdAsync(int assignmentId)
+    {
+
+        using (var connection = _db.CreateConnection())
+        {
+            _logger.LogInformation($"Getting Assignment of {assignmentId} from database");
+
+            return await connection.QueryFirstOrDefaultAsync<ASSIGNMENTS>("sp_GetAssignmentById",
+                new { ASSIGNMENTID = assignmentId },
+                commandType: CommandType.StoredProcedure);
+
+
+
+        }
+    }
+
     public async Task<int> InsertAssignment(ASSIGNMENTS assignment)
     {
         using (var connection = _db.CreateConnection())
@@ -29,5 +76,25 @@ internal class AssignmentRepository(IDbContext _db, ILogger<AssignmentRepository
         }
 
         
+    }
+
+    public async Task<int> UpdateAssignmentAsync(ASSIGNMENTS assignment)
+    {
+        using (var connection = _db.CreateConnection())
+        {
+            _logger.LogInformation($"Updating Assignment in  database");
+
+            var parameters = new DynamicParameters();
+            parameters.Add("@ASSIGNMENTID", assignment.AssignmentId);
+            parameters.Add("@TITLE", assignment.Title);
+            parameters.Add("@DESCRIPTION", assignment.Description);
+            parameters.Add("@DUEDATETIME", assignment.DueDateTime);
+            parameters.Add("@FILEPATH", assignment.FilePath);
+
+            return await connection.ExecuteAsync("sp_UpdateAssignment", parameters, commandType: CommandType.StoredProcedure);
+
+
+
+        }
     }
 }

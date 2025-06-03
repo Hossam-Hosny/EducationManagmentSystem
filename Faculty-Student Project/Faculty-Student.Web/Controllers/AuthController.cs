@@ -4,15 +4,17 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Faculty_Student.Web.Controllers
 {
+    [Route("[controller]")]
     public class AuthController
-        ( IUserServices _userServices
-        ) : Controller
+(
+            IUserServices _userServices
+) : Controller
     {
 
-        [HttpGet]
+        [HttpGet("/")]
         public IActionResult Register() => View();
 
-        [HttpPost]
+        [HttpPost("/")]
         public async Task<IActionResult> Register(InsertUserDto model)
         {
             if (!ModelState.IsValid)
@@ -28,15 +30,15 @@ namespace Faculty_Student.Web.Controllers
             return View(model);
         }
 
-        [HttpGet]
-        public IActionResult Login() => View();
+        //[HttpGet]
+        //public IActionResult Login() => View();
 
-        [HttpPost]
-        public IActionResult Login(LoginViewModel model)
-        {
-            return RedirectToAction("Dashboard", "Home");
-        }
+       // [HttpPost]
+        //public IActionResult Login(LoginViewModel model)
+        //{
+        //    return RedirectToAction("Dashboard", "Home");
+        //}
 
-
+    
     }
 }

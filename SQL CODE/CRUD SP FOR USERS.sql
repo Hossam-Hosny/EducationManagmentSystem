@@ -1,0 +1,70 @@
+/*
+	CRUD  STORED PROC FOR USERS TABLE 
+*/
+
+USE FACULTYDB;
+GO
+
+
+
+CREATE PROC sp_InsertUser
+				@Name NVARCHAR(100),
+				@Email NVARCHAR(100),
+				@PasswordHash NVARCHAR (255),
+				@Role NVARCHAR (20)
+AS
+BEGIN
+INSERT INTO USERS (UserName,Email,PasswordHash,Role,CreatedAt)
+VALUES (@Name,@Email,@PasswordHash,@Role,GETDATE());
+END
+
+
+
+CREATE PROC sp_GetUserById
+				@USERID		INT
+AS 
+BEGIN
+	SELECT * FROM USERS WHERE UserId = @USERID;
+END
+GO
+
+
+
+CREATE PROC sp_GetUserByEmail
+				@EMAIL		NVARCHAR (100)
+AS
+BEGIN
+	SELECT TOP 1 * FROM USERS WHERE Email = @EMAIL;
+END
+GO
+
+
+
+
+CREATE PROC sp_UpdateUser
+				@USERID		INT,	
+				@NAME		NVARCHAR (100),
+				@EMAIL		NVARCHAR (100),
+				@PASSWORD	NVARCHAR (255),
+				@ROLE		NVARCHAR (20)
+AS
+BEGIN
+		UPDATE USERS
+		SET UserName = @NAME,
+			Email = @EMAIL,
+			PasswordHash = @PASSWORD,
+			Role = @ROLE
+		WHERE UserId = @USERID;
+END
+GO
+
+
+
+
+CREATE PROC sp_DeleteUser
+				@USERID			INT
+AS
+BEGIN
+		DELETE FROM USERS WHERE UserId = @USERID;
+END
+GO

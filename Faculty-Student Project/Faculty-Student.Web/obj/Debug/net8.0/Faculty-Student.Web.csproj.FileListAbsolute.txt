@@ -52,3 +52,4 @@ E:\Software Engineer Assessment American University\Faculty-Student Project\Facu
 E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Web\obj\Debug\net8.0\Faculty-Student.Web.pdb
 E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Web\obj\Debug\net8.0\Faculty-Student.Web.genruntimeconfig.cache
 E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Web\obj\Debug\net8.0\ref\Faculty-Student.Web.dll
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Web\obj\Debug\net8.0\Faculty-Student.Web.sourcelink.json

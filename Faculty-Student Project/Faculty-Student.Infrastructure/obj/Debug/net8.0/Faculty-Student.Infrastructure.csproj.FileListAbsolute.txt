@@ -15,3 +15,4 @@ E:\Software Engineer Assessment American University\Faculty-Student Project\Facu
 E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\refint\Faculty-Student.Infrastructure.dll
 E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\Faculty-Student.Infrastructure.pdb
 E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\ref\Faculty-Student.Infrastructure.dll
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Infrastructure\obj\Debug\net8.0\Faculty-Student.Infrastructure.sourcelink.json
