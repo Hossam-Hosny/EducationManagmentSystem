@@ -1,7 +1,7 @@
 # EducationManagmentSystem
 Hello every one 
 
-This is a Complete Education Management System (Faculty , Student )
+This is a Complete Education Management System 
 tech
 Clean Architecture with MVC , Dapper , SQL , Stored Proc , Unit Testing (xUnit) , Repository Patter  and More
 
