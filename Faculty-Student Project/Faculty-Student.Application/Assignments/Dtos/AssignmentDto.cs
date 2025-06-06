@@ -8,5 +8,6 @@ public class AssignmentDto
 
     public DateTime DueDateTime { get; set; }
     public string? FilePath { get; set; }
+    public int CreatedById { get; set; }
 
 }

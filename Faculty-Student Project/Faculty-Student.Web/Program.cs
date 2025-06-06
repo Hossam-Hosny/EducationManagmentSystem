@@ -6,6 +6,17 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddAuthentication("Cookies")
+                    .AddCookie("Cookies", options =>
+                    {
+                        options.LoginPath = "/Auth/Login";
+                        options.LogoutPath = "/Auth/Logout";
+                        options.AccessDeniedPath = "/Auth/AccessDenied";
+                        options.Cookie.HttpOnly = true;
+                        options.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest;
+                    });
+builder.Services.AddAuthorization();
+
 
 // Adding Infrastructure Layer to IOC
 builder.Services.AddInfrastructure();
@@ -28,6 +39,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();
 
 app.UseAuthorization();
 

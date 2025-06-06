@@ -14,8 +14,27 @@ internal class UserServices
                  ILogger<UserServices> _logger
 )
 
-:IUserServices
+: IUserServices
 {
+    public async Task<bool> DeleteUserAsync(int userId)
+    {
+        return await _userRepository.DeleteUserAsync(userId) > 0;
+    }
+
+    public async Task<UserDto?> GetUserByIdAsync(int userId)
+    {
+        var user = await _userRepository.GetUserByIdAsync(userId);
+        if (user is null) return null;
+
+        return new UserDto
+        {
+            UserId = user.UserId,
+            Name = user.UserName,
+            Email = user.Email,
+            Role = user.Role
+        };
+    }
+
     public async Task<bool> RegisterUserAsync(InsertUserDto user)
     {
 
@@ -34,6 +53,36 @@ internal class UserServices
 
 
 
+    }
+
+    public async Task<bool> UpdateUserAsync(UpdateUserDto dto)
+    {
+        var user = new USERS
+        {
+            UserName = dto.Name,
+            Email = dto.Email,
+
+            Role = dto.Role    
+        };
+        return await _userRepository.UpdateUserAsync(user) > 0;
+
+    }
+
+    public async Task<UserDto?> ValidateUserAsync(string email, string password)
+    {
+        var user = await _userRepository.GetUserByEmailAsync(email);
+        if (user is null) return null;
+
+        string passwordHash = HashPassword(password);
+        if (user.PasswordHash != passwordHash) return null;
+
+        return new UserDto
+        {
+            UserId = user.UserId,
+            Name = user.UserName,
+            Email = user.Email,
+            Role = user.Role
+        };
     }
 
     private string HashPassword(string Password)

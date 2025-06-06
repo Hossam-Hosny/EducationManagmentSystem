@@ -3,32 +3,152 @@
   "WorkspaceRootPath": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\assignments\\services\\assignmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\assignments\\services\\assignmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\assignmentscontroller1\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\assignmentscontroller1\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.domain\\entities\\assignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|solutionrelative:faculty-student.domain\\entities\\assignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\controllers\\assignmentscontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\controllers\\assignmentscontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\faculty\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\faculty\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\assignmentscontroller1\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\assignmentscontroller1\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\controllers\\facultycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\controllers\\facultycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\assignments\\services\\assignmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\assignments\\services\\assignmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\assignments\\servicecontracts\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\assignments\\servicecontracts\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\assignments\\dtos\\assignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\assignments\\dtos\\assignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F37B33FB-2FF5-400E-B351-3F43E3392707}|Faculty-Student.Infrastructure\\Faculty-Student.Infrastructure.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.infrastructure\\repositories\\assignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F37B33FB-2FF5-400E-B351-3F43E3392707}|Faculty-Student.Infrastructure\\Faculty-Student.Infrastructure.csproj|solutionrelative:faculty-student.infrastructure\\repositories\\assignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.domain\\irepositories\\iassignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|solutionrelative:faculty-student.domain\\irepositories\\iassignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\assignments\\dtos\\updateassignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\assignments\\dtos\\updateassignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\assignments\\dtos\\assignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\assignments\\dtos\\assignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\assignments\\dtos\\createassignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\assignments\\dtos\\createassignmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.domain\\irepositories\\isubmissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|solutionrelative:faculty-student.domain\\irepositories\\isubmissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\users\\servicecontracts\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\users\\servicecontracts\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\users\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\users\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\shared\\_publiclayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\shared\\_publiclayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\wwwroot\\css\\welcome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\wwwroot\\css\\welcome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\student\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\student\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\commons\\users\\usersroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\commons\\users\\usersroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.domain\\entities\\assignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|solutionrelative:faculty-student.domain\\entities\\assignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\users\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\users\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\users\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\users\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\users\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\users\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\users\\dtos\\insertuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\users\\dtos\\insertuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\faculty-student.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -41,10 +161,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F37B33FB-2FF5-400E-B351-3F43E3392707}|Faculty-Student.Infrastructure\\Faculty-Student.Infrastructure.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.infrastructure\\repositories\\submissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F37B33FB-2FF5-400E-B351-3F43E3392707}|Faculty-Student.Infrastructure\\Faculty-Student.Infrastructure.csproj|solutionrelative:faculty-student.infrastructure\\repositories\\submissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F37B33FB-2FF5-400E-B351-3F43E3392707}|Faculty-Student.Infrastructure\\Faculty-Student.Infrastructure.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.infrastructure\\repositories\\assignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F37B33FB-2FF5-400E-B351-3F43E3392707}|Faculty-Student.Infrastructure\\Faculty-Student.Infrastructure.csproj|solutionrelative:faculty-student.infrastructure\\repositories\\assignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F37B33FB-2FF5-400E-B351-3F43E3392707}|Faculty-Student.Infrastructure\\Faculty-Student.Infrastructure.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.infrastructure\\repositories\\assessmentresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,14 +183,6 @@
       "RelativeMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|solutionrelative:faculty-student.domain\\entities\\assessmentresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.domain\\irepositories\\iassignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|solutionrelative:faculty-student.domain\\irepositories\\iassignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.domain\\irepositories\\isubmissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|solutionrelative:faculty-student.domain\\irepositories\\isubmissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.domain\\entities\\submissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|solutionrelative:faculty-student.domain\\entities\\submissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -91,44 +199,12 @@
       "RelativeMoniker": "D:0:0:{F37B33FB-2FF5-400E-B351-3F43E3392707}|Faculty-Student.Infrastructure\\Faculty-Student.Infrastructure.csproj|solutionrelative:faculty-student.infrastructure\\dbcontext\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F37B33FB-2FF5-400E-B351-3F43E3392707}|Faculty-Student.Infrastructure\\Faculty-Student.Infrastructure.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F37B33FB-2FF5-400E-B351-3F43E3392707}|Faculty-Student.Infrastructure\\Faculty-Student.Infrastructure.csproj|solutionrelative:faculty-student.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF72793E-15D1-45DD-A982-3FAD99656A57}|Faculty-Student.Web\\Faculty-Student.Web.csproj|solutionrelative:faculty-student.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\users\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\users\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\users\\dtos\\insertuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\users\\dtos\\insertuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\users\\servicecontracts\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\users\\servicecontracts\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.domain\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|solutionrelative:faculty-student.domain\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.application\\commons\\users\\usersroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F87ABEB9-0960-4966-8572-4A837655992D}|Faculty-Student.Application\\Faculty-Student.Application.csproj|solutionrelative:faculty-student.application\\commons\\users\\usersroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F022D721-9A53-40CB-BDD1-DEFA5404B1C2}|Faculty-Student.Domain\\Faculty-Student.Domain.csproj|e:\\software engineer assessment american university\\faculty-student project\\faculty-student.domain\\faculty-student.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -158,7 +234,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,13 +246,78 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Faculty\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\Faculty\\Dashboard.cshtml",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Faculty\\Dashboard.cshtml",
+              "RelativeToolTip": "Faculty-Student.Web\\Views\\Faculty\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T19:16:35.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssignmentsController1.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Controllers\\AssignmentsController1.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Controllers\\AssignmentsController1.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Controllers\\AssignmentsController1.cs",
+              "RelativeToolTip": "Faculty-Student.Web\\Controllers\\AssignmentsController1.cs",
+              "ViewState": "AgIAAAMAAABgZmZmZmYkwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T22:06:23.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\AssignmentsController1\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\AssignmentsController1\\GetAll.cshtml",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\AssignmentsController1\\GetAll.cshtml",
+              "RelativeToolTip": "Faculty-Student.Web\\Views\\AssignmentsController1\\GetAll.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T15:11:44.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\AssignmentsController1\\Create.cshtml",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\AssignmentsController1\\Create.cshtml",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\AssignmentsController1\\Create.cshtml",
+              "RelativeToolTip": "Faculty-Student.Web\\Views\\AssignmentsController1\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T15:10:20.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FacultyController.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Controllers\\FacultyController.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Controllers\\FacultyController.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Controllers\\FacultyController.cs",
+              "RelativeToolTip": "Faculty-Student.Web\\Controllers\\FacultyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T19:13:01.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AssignmentServices.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Services\\AssignmentServices.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Application\\Assignments\\Services\\AssignmentServices.cs",
               "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Services\\AssignmentServices.cs",
               "RelativeToolTip": "Faculty-Student.Application\\Assignments\\Services\\AssignmentServices.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAACUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T14:31:13.755Z",
               "EditorCaption": ""
@@ -184,77 +325,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AssignmentDto.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Dtos\\AssignmentDto.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Application\\Assignments\\Dtos\\AssignmentDto.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Dtos\\AssignmentDto.cs",
-              "RelativeToolTip": "Faculty-Student.Application\\Assignments\\Dtos\\AssignmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T14:26:54.766Z",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Faculty-Student.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T15:30:39.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Application\\Extensions\\ServiceCollectionExtensions.cs",
               "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeToolTip": "Faculty-Student.Application\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T14:08:32.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ASSIGNMENTS.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\Entities\\ASSIGNMENTS.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Domain\\Entities\\ASSIGNMENTS.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\Entities\\ASSIGNMENTS.cs",
-              "RelativeToolTip": "Faculty-Student.Domain\\Entities\\ASSIGNMENTS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T11:28:40.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateAssignmentDto.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Dtos\\UpdateAssignmentDto.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Application\\Assignments\\Dtos\\UpdateAssignmentDto.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Dtos\\UpdateAssignmentDto.cs",
-              "RelativeToolTip": "Faculty-Student.Application\\Assignments\\Dtos\\UpdateAssignmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T14:28:03.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateAssignmentDto.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Dtos\\CreateAssignmentDto.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Application\\Assignments\\Dtos\\CreateAssignmentDto.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Dtos\\CreateAssignmentDto.cs",
-              "RelativeToolTip": "Faculty-Student.Application\\Assignments\\Dtos\\CreateAssignmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T14:25:47.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "IAssignmentService.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\ServiceContracts\\IAssignmentService.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Application\\Assignments\\ServiceContracts\\IAssignmentService.cs",
               "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\ServiceContracts\\IAssignmentService.cs",
               "RelativeToolTip": "Faculty-Student.Application\\Assignments\\ServiceContracts\\IAssignmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T14:00:49.696Z",
               "EditorCaption": ""
@@ -262,136 +364,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "SubmissionRepository.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\SubmissionRepository.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\Repositories\\SubmissionRepository.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\SubmissionRepository.cs",
-              "RelativeToolTip": "Faculty-Student.Infrastructure\\Repositories\\SubmissionRepository.cs",
-              "ViewState": "AgIAACMAAABAZmZmZmYWwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T12:20:21.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Faculty-Student.Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T12:14:14.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "AssignmentRepository.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\AssignmentRepository.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\Repositories\\AssignmentRepository.cs",
               "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\AssignmentRepository.cs",
               "RelativeToolTip": "Faculty-Student.Infrastructure\\Repositories\\AssignmentRepository.cs",
-              "ViewState": "AgIAAAcAAAAAMzMzMzMLwBYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAgAAAAAAAUwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T12:19:28.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Faculty-Student.Application.csproj",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Faculty-Student.Application.csproj",
-              "RelativeDocumentMoniker": "Faculty-Student.Application\\Faculty-Student.Application.csproj",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Faculty-Student.Application.csproj",
-              "RelativeToolTip": "Faculty-Student.Application\\Faculty-Student.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-03T12:11:46.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AssessmentResultRepository.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\AssessmentResultRepository.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\Repositories\\AssessmentResultRepository.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\AssessmentResultRepository.cs",
-              "RelativeToolTip": "Faculty-Student.Infrastructure\\Repositories\\AssessmentResultRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T12:21:30.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AssessmentCriteriaRepository.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\AssessmentCriteriaRepository.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\Repositories\\AssessmentCriteriaRepository.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\AssessmentCriteriaRepository.cs",
-              "RelativeToolTip": "Faculty-Student.Infrastructure\\Repositories\\AssessmentCriteriaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T12:22:46.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IAssessmentCriteriaRepository.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\IRepositories\\IAssessmentCriteriaRepository.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Domain\\IRepositories\\IAssessmentCriteriaRepository.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\IRepositories\\IAssessmentCriteriaRepository.cs",
-              "RelativeToolTip": "Faculty-Student.Domain\\IRepositories\\IAssessmentCriteriaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T12:22:25.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IAssessmentResultRepository.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\IRepositories\\IAssessmentResultRepository.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Domain\\IRepositories\\IAssessmentResultRepository.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\IRepositories\\IAssessmentResultRepository.cs",
-              "RelativeToolTip": "Faculty-Student.Domain\\IRepositories\\IAssessmentResultRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T12:21:06.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ASSESSMENTRESULTS.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\Entities\\ASSESSMENTRESULTS.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Domain\\Entities\\ASSESSMENTRESULTS.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\Entities\\ASSESSMENTRESULTS.cs",
-              "RelativeToolTip": "Faculty-Student.Domain\\Entities\\ASSESSMENTRESULTS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T11:38:00.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 10,
               "Title": "IAssignmentRepository.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\IRepositories\\IAssignmentRepository.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Domain\\IRepositories\\IAssignmentRepository.cs",
               "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\IRepositories\\IAssignmentRepository.cs",
               "RelativeToolTip": "Faculty-Student.Domain\\IRepositories\\IAssignmentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T12:18:59.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 11,
+              "Title": "UpdateAssignmentDto.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Dtos\\UpdateAssignmentDto.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Application\\Assignments\\Dtos\\UpdateAssignmentDto.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Dtos\\UpdateAssignmentDto.cs",
+              "RelativeToolTip": "Faculty-Student.Application\\Assignments\\Dtos\\UpdateAssignmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:28:03.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssignmentDto.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Dtos\\AssignmentDto.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Application\\Assignments\\Dtos\\AssignmentDto.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Dtos\\AssignmentDto.cs",
+              "RelativeToolTip": "Faculty-Student.Application\\Assignments\\Dtos\\AssignmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:26:54.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ISubmissionRepository.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\IRepositories\\ISubmissionRepository.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Domain\\IRepositories\\ISubmissionRepository.cs",
@@ -404,7 +428,402 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateAssignmentDto.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Dtos\\CreateAssignmentDto.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Application\\Assignments\\Dtos\\CreateAssignmentDto.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Assignments\\Dtos\\CreateAssignmentDto.cs",
+              "RelativeToolTip": "Faculty-Student.Application\\Assignments\\Dtos\\CreateAssignmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:25:47.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\ServiceContracts\\IUserServices.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Application\\Users\\ServiceContracts\\IUserServices.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\ServiceContracts\\IUserServices.cs",
+              "RelativeToolTip": "Faculty-Student.Application\\Users\\ServiceContracts\\IUserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T12:47:54.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Application\\Users\\Services\\UserServices.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\Services\\UserServices.cs",
+              "RelativeToolTip": "Faculty-Student.Application\\Users\\Services\\UserServices.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAABQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:03:09.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Faculty-Student.Web\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T14:30:41.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Faculty-Student.Web\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T18:23:42.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Program.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Program.cs",
+              "RelativeToolTip": "Faculty-Student.Web\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAC8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T12:41:40.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Faculty-Student.Web\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T20:11:35.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_PublicLayout.cshtml",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Shared\\_PublicLayout.cshtml",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\Shared\\_PublicLayout.cshtml",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Shared\\_PublicLayout.cshtml",
+              "RelativeToolTip": "Faculty-Student.Web\\Views\\Shared\\_PublicLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T20:25:47.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "welcome.css",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\wwwroot\\css\\welcome.css",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\wwwroot\\css\\welcome.css",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\wwwroot\\css\\welcome.css",
+              "RelativeToolTip": "Faculty-Student.Web\\wwwroot\\css\\welcome.css",
+              "ViewState": "AgIAABwAAADgMjMzMzMlwDIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-05T20:40:50.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Faculty-Student.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T20:09:47.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Faculty-Student.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T20:11:01.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Faculty-Student.Web\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T20:12:13.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Controllers\\StudentController.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Faculty-Student.Web\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T19:18:30.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Faculty-Student.Web\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEEAAAAAMzMzMzMrwEYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:25:09.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Faculty-Student.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T19:21:24.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Student\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\Student\\Dashboard.cshtml",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Student\\Dashboard.cshtml",
+              "RelativeToolTip": "Faculty-Student.Web\\Views\\Student\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T19:19:10.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsersRoles.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Commons\\Users\\UsersRoles.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Application\\Commons\\Users\\UsersRoles.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Commons\\Users\\UsersRoles.cs",
+              "RelativeToolTip": "Faculty-Student.Application\\Commons\\Users\\UsersRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:50:13.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ASSIGNMENTS.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\Entities\\ASSIGNMENTS.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Domain\\Entities\\ASSIGNMENTS.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\Entities\\ASSIGNMENTS.cs",
+              "RelativeToolTip": "Faculty-Student.Domain\\Entities\\ASSIGNMENTS.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:28:40.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Faculty-Student.Web\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Faculty-Student.Web\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABIAAABAMzMzMzMrwBgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T18:53:28.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\DTOs\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Application\\Users\\DTOs\\UserLoginDto.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\DTOs\\UserLoginDto.cs",
+              "RelativeToolTip": "Faculty-Student.Application\\Users\\DTOs\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:51:17.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\DTOs\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Application\\Users\\DTOs\\UpdateUserDto.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\DTOs\\UpdateUserDto.cs",
+              "RelativeToolTip": "Faculty-Student.Application\\Users\\DTOs\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:31:26.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Application\\Users\\DTOs\\UserDto.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "Faculty-Student.Application\\Users\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:29:47.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InsertUserDto.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\DTOs\\InsertUserDto.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Application\\Users\\DTOs\\InsertUserDto.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\DTOs\\InsertUserDto.cs",
+              "RelativeToolTip": "Faculty-Student.Application\\Users\\DTOs\\InsertUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:48:26.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SubmissionRepository.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\SubmissionRepository.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\Repositories\\SubmissionRepository.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\SubmissionRepository.cs",
+              "RelativeToolTip": "Faculty-Student.Infrastructure\\Repositories\\SubmissionRepository.cs",
+              "ViewState": "AgIAACMAAABAZmZmZmYWwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T12:20:21.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Faculty-Student.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T12:14:14.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Faculty-Student.Application.csproj",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Faculty-Student.Application.csproj",
+              "RelativeDocumentMoniker": "Faculty-Student.Application\\Faculty-Student.Application.csproj",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Faculty-Student.Application.csproj",
+              "RelativeToolTip": "Faculty-Student.Application\\Faculty-Student.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-03T12:11:46.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AssessmentResultRepository.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\AssessmentResultRepository.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\Repositories\\AssessmentResultRepository.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\AssessmentResultRepository.cs",
+              "RelativeToolTip": "Faculty-Student.Infrastructure\\Repositories\\AssessmentResultRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T12:21:30.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AssessmentCriteriaRepository.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\AssessmentCriteriaRepository.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\Repositories\\AssessmentCriteriaRepository.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Repositories\\AssessmentCriteriaRepository.cs",
+              "RelativeToolTip": "Faculty-Student.Infrastructure\\Repositories\\AssessmentCriteriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T12:22:46.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IAssessmentCriteriaRepository.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\IRepositories\\IAssessmentCriteriaRepository.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Domain\\IRepositories\\IAssessmentCriteriaRepository.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\IRepositories\\IAssessmentCriteriaRepository.cs",
+              "RelativeToolTip": "Faculty-Student.Domain\\IRepositories\\IAssessmentCriteriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T12:22:25.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IAssessmentResultRepository.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\IRepositories\\IAssessmentResultRepository.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Domain\\IRepositories\\IAssessmentResultRepository.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\IRepositories\\IAssessmentResultRepository.cs",
+              "RelativeToolTip": "Faculty-Student.Domain\\IRepositories\\IAssessmentResultRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T12:21:06.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ASSESSMENTRESULTS.cs",
+              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\Entities\\ASSESSMENTRESULTS.cs",
+              "RelativeDocumentMoniker": "Faculty-Student.Domain\\Entities\\ASSESSMENTRESULTS.cs",
+              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\Entities\\ASSESSMENTRESULTS.cs",
+              "RelativeToolTip": "Faculty-Student.Domain\\Entities\\ASSESSMENTRESULTS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:38:00.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "SUBMISSIONS.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\Entities\\SUBMISSIONS.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Domain\\Entities\\SUBMISSIONS.cs",
@@ -412,12 +831,11 @@
               "RelativeToolTip": "Faculty-Student.Domain\\Entities\\SUBMISSIONS.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T11:33:30.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T11:33:30.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 46,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\IRepositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Domain\\IRepositories\\IUserRepository.cs",
@@ -425,12 +843,11 @@
               "RelativeToolTip": "Faculty-Student.Domain\\IRepositories\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T12:17:35.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T12:17:35.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 47,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\DbContext\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\DbContext\\AppDbContext.cs",
@@ -442,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 48,
               "Title": "IDbContext.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\DbContext\\IDbContext.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\DbContext\\IDbContext.cs",
@@ -454,43 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Auth\\Register.cshtml",
-              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\Auth\\Register.cshtml",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\Auth\\Register.cshtml",
-              "RelativeToolTip": "Faculty-Student.Web\\Views\\Auth\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T14:30:41.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Program.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Web\\Program.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Program.cs",
-              "RelativeToolTip": "Faculty-Student.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T12:41:40.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Web\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Faculty-Student.Web\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T14:25:09.565Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 49,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
@@ -498,59 +879,12 @@
               "RelativeToolTip": "Faculty-Student.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T12:40:36.165Z"
+              "WhenOpened": "2025-06-03T12:40:36.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserServices.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\Services\\UserServices.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Application\\Users\\Services\\UserServices.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\Services\\UserServices.cs",
-              "RelativeToolTip": "Faculty-Student.Application\\Users\\Services\\UserServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T13:03:09.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Faculty-Student.Web\\Views\\_ViewImports.cshtml",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Faculty-Student.Web\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T15:30:39.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "InsertUserDto.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\DTOs\\InsertUserDto.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Application\\Users\\DTOs\\InsertUserDto.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\DTOs\\InsertUserDto.cs",
-              "RelativeToolTip": "Faculty-Student.Application\\Users\\DTOs\\InsertUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T13:48:26.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IUserServices.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\ServiceContracts\\IUserServices.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Application\\Users\\ServiceContracts\\IUserServices.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Users\\ServiceContracts\\IUserServices.cs",
-              "RelativeToolTip": "Faculty-Student.Application\\Users\\ServiceContracts\\IUserServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T12:47:54.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 50,
               "Title": "USERS.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\Entities\\USERS.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Domain\\Entities\\USERS.cs",
@@ -562,19 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "UsersRoles.cs",
-              "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Commons\\Users\\UsersRoles.cs",
-              "RelativeDocumentMoniker": "Faculty-Student.Application\\Commons\\Users\\UsersRoles.cs",
-              "ToolTip": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Application\\Commons\\Users\\UsersRoles.cs",
-              "RelativeToolTip": "Faculty-Student.Application\\Commons\\Users\\UsersRoles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T13:50:13.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 51,
               "Title": "Faculty-Student.Domain.csproj",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\Faculty-Student.Domain.csproj",
               "RelativeDocumentMoniker": "Faculty-Student.Domain\\Faculty-Student.Domain.csproj",
@@ -586,7 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 52,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\appsettings.json",
               "RelativeDocumentMoniker": "Faculty-Student.Web\\appsettings.json",
@@ -594,12 +916,11 @@
               "RelativeToolTip": "Faculty-Student.Web\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-03T12:04:16.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T12:04:16.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 53,
               "Title": "Faculty-Student.Infrastructure.csproj",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Infrastructure\\Faculty-Student.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Faculty-Student.Infrastructure\\Faculty-Student.Infrastructure.csproj",
@@ -611,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 54,
               "Title": "ASSESSMENTCRITERIA.cs",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Domain\\Entities\\ASSESSMENTCRITERIA.cs",
               "RelativeDocumentMoniker": "Faculty-Student.Domain\\Entities\\ASSESSMENTCRITERIA.cs",
@@ -619,12 +940,11 @@
               "RelativeToolTip": "Faculty-Student.Domain\\Entities\\ASSESSMENTCRITERIA.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T11:35:34.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T11:35:34.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 55,
               "Title": "Faculty-Student.Web.csproj",
               "DocumentMoniker": "E:\\Software Engineer Assessment American University\\Faculty-Student Project\\Faculty-Student.Web\\Faculty-Student.Web.csproj",
               "RelativeDocumentMoniker": "Faculty-Student.Web\\Faculty-Student.Web.csproj",

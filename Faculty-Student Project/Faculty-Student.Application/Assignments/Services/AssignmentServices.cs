@@ -3,62 +3,79 @@ using Faculty_Student.Application.Assignments.ServiceContracts;
 using Faculty_Student.Domain.Entities;
 using Faculty_Student.Domain.IRepositories;
 using Microsoft.Extensions.Logging;
+using System.Collections;
 
 namespace Faculty_Student.Application.Assignments.Services;
 
-internal class AssignmentServices(IAssignmentRepository _repo , ILogger<AssignmentServices> _logger) : IAssignmentService
+internal class AssignmentServices(IAssignmentRepository _repo, ILogger<AssignmentServices> _logger) : IAssignmentService
 {
     public async Task<int> CreateAssignmentAsync(CreateAssignmentDto dto)
     {
-        var assignment = new ASSIGNMENTS
+        var model = new ASSIGNMENTS
         {
             Title = dto.Title,
+            CreatedById = dto.CreatedById,
             Description = dto.Description,
             DueDateTime = dto.DueDateTime,
-            FilePath = dto.FilePath,
-            CreatedById = dto.CreatedById
+            FilePath = dto.FilePath
         };
-
-
-        return await _repo.InsertAssignment(assignment);
-
-
-
+        return await _repo.InsertAssignment(model);
     }
 
-    public Task<bool> DeleteAssignmentAsync(int assignmentId)
+    public async Task<bool> DeleteAssignmentAsync(int assignmentId)
     {
-        throw new NotImplementedException();
+        return await _repo.DeleteAssignmentAsync(assignmentId) > 0;
     }
 
     public async Task<IEnumerable<AssignmentDto>> GetByFacuyltyIdAsync(int facuyltyId)
     {
-        throw new NotImplementedException();
-            
-        
+        var model = await _repo.GetAssignmentByFacultyIdAsync(facuyltyId);
 
-    }
-
-    public async Task<AssignmentDto?> GetByIdAsync(int assignmentId)
-    {
-        var assignment = await _repo.GetAssignmentByIdAsync(assignmentId);
-
-        if (assignment is null) return null;
-
-        var result = new AssignmentDto
+        return model.Select(a => new AssignmentDto
         {
-            Id = assignment.AssignmentId,
-            Description = assignment.Description,
-            DueDateTime = assignment.DueDateTime,
-            FilePath = assignment.FilePath,
-            Title = assignment.Title
-        };
-        return result;
+            Title = a.Title,
+            Description = a.Description,
+            DueDateTime = a.DueDateTime,
+            FilePath = a.FilePath,
+            CreatedById = a.CreatedById
+            
 
+        });
+
+        
     }
 
-    public Task<bool> UpdateAssignmentAsync(UpdateAssignmentDto dot)
+    public async Task<AssignmentDto> GetByIdAsync(int assignmentId)
     {
-        throw new NotImplementedException();
+        var model = await _repo.GetAssignmentByIdAsync(assignmentId);
+        if (model is null) return null;
+
+        return new AssignmentDto
+        {
+            Id = model.AssignmentId,
+            CreatedById = model.CreatedById,
+            Description = model.Description,
+            DueDateTime = model.DueDateTime,
+            FilePath = model.FilePath,
+            Title = model.Title
+        };
     }
+
+   
+
+    public async Task<bool> UpdateAssignmentAsync(UpdateAssignmentDto dot)
+    {
+        var assignment = new ASSIGNMENTS
+        {
+           Title = dot.Title,
+           Description = dot.Description,
+           DueDateTime = dot.DueDateTime,
+           FilePath = dot.FilePath
+        };
+
+
+        return await _repo.UpdateAssignmentAsync(assignment) > 0;
+    }
+
+   
 }

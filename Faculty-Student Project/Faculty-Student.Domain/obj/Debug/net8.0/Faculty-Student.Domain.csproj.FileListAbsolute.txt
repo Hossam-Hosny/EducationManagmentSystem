@@ -9,3 +9,4 @@ E:\Software Engineer Assessment American University\Faculty-Student Project\Facu
 E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Domain\obj\Debug\net8.0\refint\Faculty-Student.Domain.dll
 E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Domain\obj\Debug\net8.0\Faculty-Student.Domain.pdb
 E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Domain\obj\Debug\net8.0\ref\Faculty-Student.Domain.dll
+E:\Software Engineer Assessment American University\Faculty-Student Project\Faculty-Student.Domain\obj\Debug\net8.0\Faculty-Student.Domain.sourcelink.json

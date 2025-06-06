@@ -1,8 +1,16 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    Layout = "_PublicLayout";
+    ViewData["Title"] = "Welcome";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="welcome-container">
+    <div class="welcome-box">
+        <h1>Welcome to the Faculty Management System</h1>
+        <p>Your all-in-one academic platform to create assignments, assess students, and track progress with ease and accuracy.</p>
+        <div class="mt-4">
+            <a asp-controller="Auth" asp-action="Login" class="btn btn-primary">Login</a>
+            <a asp-controller="Auth" asp-action="Register" class="btn btn-outline-secondary">Register</a>
+        </div>
+    </div>
 </div>
+

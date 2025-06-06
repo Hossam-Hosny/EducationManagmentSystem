@@ -3,6 +3,7 @@ using Faculty_Student.Domain.Entities;
 using Faculty_Student.Domain.IRepositories;
 using Faculty_Student.Infrastructure.DbContext;
 using Microsoft.Extensions.Logging;
+using System.Collections;
 using System.Data;
 
 namespace Faculty_Student.Infrastructure.Repositories;
@@ -24,18 +25,18 @@ internal class AssignmentRepository(IDbContext _db, ILogger<AssignmentRepository
 
     }
 
-    public async Task<ASSIGNMENTS?> GetAssignmentByFacultyIdAsync(int facultyId)
+    public async Task<List<ASSIGNMENTS>?> GetAssignmentByFacultyIdAsync(int facultyId)
     {
 
         using (var connection = _db.CreateConnection())
         {
             _logger.LogInformation($"Getting Assignments of Faculty id  {facultyId} from database");
 
-            return await connection.QueryFirstOrDefaultAsync<ASSIGNMENTS>("sp_GetAssignmentsByFaculty",
+            var result =  await connection.QueryAsync<ASSIGNMENTS>("sp_GetAssignmentsByFaculty",
                 new { FACULTYID = facultyId },
                 commandType: CommandType.StoredProcedure);
 
-
+            return result.ToList();
 
         }
     }
@@ -55,6 +56,8 @@ internal class AssignmentRepository(IDbContext _db, ILogger<AssignmentRepository
 
         }
     }
+
+   
 
     public async Task<int> InsertAssignment(ASSIGNMENTS assignment)
     {
@@ -97,4 +100,6 @@ internal class AssignmentRepository(IDbContext _db, ILogger<AssignmentRepository
 
         }
     }
+
+   
 }

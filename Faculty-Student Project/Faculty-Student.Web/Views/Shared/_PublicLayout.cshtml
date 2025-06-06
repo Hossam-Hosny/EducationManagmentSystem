@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"] - Faculty Management System</title>
+    <link href="~/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link href="~/css/sb-admin-2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/welcome.css" />
+    <link rel="stylesheet" href="~/css/welcome.css" />
+
+</head>
+<body>
+    <footer class="text-center mt-5 text-muted bg-white border-top py-3">
+        <div class="container">
+            <p class="mb-2">
+                <a asp-controller="Home" asp-action="Index" class="text-decoration-none me-3">Home</a>
+
+                <a asp-controller="Home" asp-action="About" class="text-decoration-none me-3">About</a>
+                <a asp-controller="Home" asp-action="Contact" class="text-decoration-none me-3">Contact</a>
+                <a asp-controller="Auth" asp-action="Login" class="text-decoration-none me-3">Login</a>
+                <a asp-controller="Auth" asp-action="Register" class="text-decoration-none">Register</a>
+            </p>
+      
+        </div>
+    </footer>
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <script src="~/vendor/jquery/jquery.min.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/sb-admin-2.min.js"></script>
+
+    @RenderSection("Scripts", required: false)
+  
+
+
+</body>
+</html>

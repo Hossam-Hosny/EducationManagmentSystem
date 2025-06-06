@@ -6,7 +6,7 @@ public interface IAssignmentRepository
 {
     Task<int> InsertAssignment(ASSIGNMENTS assignment);
 
-    Task<ASSIGNMENTS?> GetAssignmentByFacultyIdAsync(int facultyId);
+    Task<List<ASSIGNMENTS>?> GetAssignmentByFacultyIdAsync(int facultyId);
     Task<ASSIGNMENTS?> GetAssignmentByIdAsync(int assignmentId);
     Task<int> UpdateAssignmentAsync(ASSIGNMENTS assignment);
     Task<int> DeleteAssignmentAsync(int assignmentId);
