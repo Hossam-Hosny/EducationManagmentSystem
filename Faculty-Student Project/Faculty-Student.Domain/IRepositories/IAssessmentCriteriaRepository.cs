@@ -6,7 +6,7 @@ public interface IAssessmentCriteriaRepository
 {
     Task<int> InsertAssessmentCriteria(ASSESSMENTCRITERIA aSSESSMENTCRITERIA);
 
-    Task<ASSESSMENTCRITERIA?> GetCriteriaByAssignmentAsync(int assignmentId);
+    Task<List<ASSESSMENTCRITERIA?>> GetCriteriaByAssignmentAsync(int assignmentId);
     Task<ASSESSMENTCRITERIA?> GetCriteriaByIdAsync(int criteriaId);
     Task<int> UpdateCriteriaAsync(int @MAXSCORE, int @CRITERIAID, string @CRITERIANAME);
     Task<int> DeleteCriteriaAsync(int CriteriaId);

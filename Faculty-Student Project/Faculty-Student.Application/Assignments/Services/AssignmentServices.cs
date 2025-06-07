@@ -33,6 +33,7 @@ internal class AssignmentServices(IAssignmentRepository _repo, ILogger<Assignmen
 
         return model.Select(a => new AssignmentDto
         {
+            Id = a.AssignmentId,
             Title = a.Title,
             Description = a.Description,
             DueDateTime = a.DueDateTime,

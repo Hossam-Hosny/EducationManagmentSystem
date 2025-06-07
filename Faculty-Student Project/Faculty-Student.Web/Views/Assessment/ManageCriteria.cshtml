@@ -1,0 +1,55 @@
+﻿@model IEnumerable<AssessmentCriteriaDto>
+@{
+    ViewData["Title"] = "Manage Assessment Criteria";
+    var assignmentId = ViewBag.AssignmentId;
+}
+
+<div class="container-fluid">
+    <h2 class="mb-4">Assessment Criteria</h2>
+
+    <form asp-action="AddCriteria" method="post" class="card p-3 shadow mb-4">
+        <input type="hidden" name="AssignmentId" value="@assignmentId" />
+
+        <div class="row">
+            <div class="col-md-5">
+                <input name="CriteriaName" class="form-control" placeholder="Criteria Name" required />
+            </div>
+            <div class="col-md-3">
+                <input name="MaxScore" class="form-control" type="number" min="1" placeholder="Max Score" required />
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-success">Add</button>
+            </div>
+        </div>
+    </form>
+
+    <table class="table table-bordered table-hover shadow">
+        <thead class="thead-light">
+            <tr>
+                <th>Name</th>
+                <th>Max Score</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.CriteriaName</td>
+                    <td>@item.MaxScore</td>
+                    <td>
+                        <form asp-action="EditCriteria" method="post" class="d-inline">
+                            <input type="hidden" name="CriteriaId" value="@item.CriteriaId" />
+                            <input type="hidden" name="MaxScore" value="@item.MaxScore" />
+                            <input type="hidden" name="CriteriaName" value="@item.CriteriaName" />
+                            <button class="btn btn-sm btn-warning">Edit</button>
+                        </form>
+
+                        <a asp-action="DeleteCriteria" asp-route-id="@item.CriteriaId" asp-route-assignmentId="@assignmentId"
+                           class="btn btn-sm btn-danger ms-2">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

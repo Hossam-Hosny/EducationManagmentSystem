@@ -1,0 +1,30 @@
+﻿@model IEnumerable<StudentSymmaryDto>
+@{
+    ViewData["Title"] = "All Students";
+}
+
+<div class="container-fluid">
+    <h2 class="mb-4">All Students</h2>
+
+    <table class="table table-bordered shadow-sm">
+        <thead class="thead-light">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Submissions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.UserId</td>
+                    <td>@student.UserName</td>
+                    <td>@student.Email</td>
+                    <td>@student.SubmissionCount</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

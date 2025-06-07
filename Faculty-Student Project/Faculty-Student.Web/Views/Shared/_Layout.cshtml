@@ -11,11 +11,10 @@
 </head>
 
 <body id="page-top">
-    <!-- Page Wrapper -->
+   
     <div id="wrapper">
 
-        <!-- Sidebar -->
-        @* (Optional: you can put this in a partial view) *@
+        
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
             <a class="sidebar-brand d-flex align-items-center justify-content-center" asp-controller="Home" asp-action="Index">
                 <div class="sidebar-brand-text mx-3">Faculty Portal</div>
@@ -27,8 +26,29 @@
                     <span>Dashboard</span>
                 </a>
             </li>
-            <!-- Add more nav items -->
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="Assignments" asp-action="Create">
+                    <i class="fas fa-list"></i>
+                    <span>Create Assignment</span>
+                </a>
+            </li> 
+
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="Assignments" asp-action="GetAll">
+                    <i class="fas fa-list"></i>
+                    <span>All Assignments</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="Student" asp-action="Index">
+                    <i class="fas fa-list"></i>
+                    <span>All Students</span>
+                </a>
+            </li>
+
+            
         </ul>
+       
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">

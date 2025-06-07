@@ -5,8 +5,10 @@ using System.Security.Claims;
 
 namespace Faculty_Student.Web.Controllers
 {
-    public class AssignmentsController1(IAssignmentService _assignmentService) : Controller
+  //  [Route("[controller]")]
+    public class AssignmentsController(IAssignmentService _assignmentService) : Controller
     {
+        
         [HttpGet("[action]")]
         public IActionResult Create()
         {
@@ -39,7 +41,7 @@ namespace Faculty_Student.Web.Controllers
         }
 
         [HttpGet("[action]")]
-        public async Task <IActionResult> EditAssignment(int id)
+        public async Task <IActionResult> Edit(int id)
         {
             var assignment = await  _assignmentService.GetByIdAsync (id);
             if (assignment is null) return NotFound();
@@ -57,7 +59,7 @@ namespace Faculty_Student.Web.Controllers
         }
 
         [HttpPost("[action]")]
-        public async Task <IActionResult> EditAssignment (UpdateAssignmentDto dto)
+        public async Task <IActionResult> Edit (UpdateAssignmentDto dto)
         {
             if (!ModelState.IsValid) return View(dto);
 

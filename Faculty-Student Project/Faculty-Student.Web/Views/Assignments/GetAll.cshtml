@@ -1,0 +1,35 @@
+﻿@model IEnumerable<AssignmentDto>
+
+@{
+    ViewData["Title"] = "All Assignments";
+}
+
+<div class="container-fluid">
+    <h2 class="mb-4">Your Assignments</h2>
+
+    <table class="table table-bordered shadow-sm">
+        <thead class="thead-light">
+            <tr>
+                <th>Assignment ID</th>
+                <th>Title</th>
+                <th>Due Date</th>
+                <th>Enter</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var a in Model)
+            {
+                <tr>
+                    <td>@a.Id</td>
+                    <td>@a.Title</td>
+                    <td>@a.DueDateTime.ToString("g")</td>
+                    <td>
+                        <a asp-controller="Submissions" asp-action="ListByAssignment"
+                           asp-route-assignmentId="@a.Id"
+                           class="btn btn-info btn-sm">Enter</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

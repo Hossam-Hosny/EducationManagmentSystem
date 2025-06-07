@@ -1,14 +1,23 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Faculty_Student.Application.Student.ServiceContracts;
+using Faculty_Student.Application.Users.ServiceContracts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Faculty_Student.Web.Controllers
 {
-    [Authorize(Roles ="Student")]
-    public class StudentController : Controller
+   
+    [Authorize(Roles ="Faculty")]
+    public class StudentController(IStudentService _studentService) : Controller
     {
-        public IActionResult Dashboard()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var students = await _studentService.GetAllStudentsAsync();
+            return View(students);
         }
+
+
+
+
+
     }
 }

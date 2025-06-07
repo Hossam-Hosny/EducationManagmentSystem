@@ -23,17 +23,17 @@ internal class AssessmentCriteriaRepository(IDbContext _db, ILogger<AssessmentCr
         }
     }
 
-    public async Task<ASSESSMENTCRITERIA?> GetCriteriaByAssignmentAsync(int assignmentId)
+    public async Task<List<ASSESSMENTCRITERIA?>> GetCriteriaByAssignmentAsync(int assignmentId)
     {
         using(var connection = _db.CreateConnection())
         {
             _logger.LogInformation($"Getting Criteria of assignment {assignmentId} from database");
 
-            return await connection.QueryFirstOrDefaultAsync<ASSESSMENTCRITERIA>("sp_GetCriteriaByAssignment",
+            var result =  await connection.QueryAsync<ASSESSMENTCRITERIA>("sp_GetCriteriaByAssignment",
                   new { ASSIGNMENTID = assignmentId },
                      commandType: CommandType.StoredProcedure);
 
-
+            return result.ToList()!;
         }
     }
 

@@ -17,7 +17,7 @@ public static class ServiceCollectionExtensions
         _servicecs.AddScoped<IAssignmentRepository, AssignmentRepository>();
         _servicecs.AddScoped<IAssessmentResultRepository, AssessmentResultRepository>();
         _servicecs.AddScoped<IAssessmentCriteriaRepository, AssessmentCriteriaRepository>();
-
+        _servicecs.AddScoped<IStudentRepository, StudentRepository>();
     
     }
 }

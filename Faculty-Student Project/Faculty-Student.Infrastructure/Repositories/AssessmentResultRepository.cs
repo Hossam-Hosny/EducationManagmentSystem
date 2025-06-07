@@ -37,17 +37,18 @@ internal class AssessmentResultRepository(IDbContext _db, ILogger<AssessmentResu
         }
     }
 
-    public async Task<ASSESSMENTRESULTS?> GetResultBySubmissionAsync(int submissionId)
+    public async Task<List<ASSESSMENTRESULTS>?> GetResultBySubmissionAsync(int submissionId)
     {
         using (var connection = _db.CreateConnection())
         {
             _logger.LogInformation($"Getting Result of Submission id = {submissionId} from database");
 
 
-            return await connection.QueryFirstOrDefaultAsync<ASSESSMENTRESULTS>("sp_GetResultBySubmission",
+            var reslut =  await connection.QueryAsync<ASSESSMENTRESULTS>("sp_GetResultBySubmission",
                    new { SUBMISSIONID = submissionId },
                       commandType: CommandType.StoredProcedure);
 
+            return reslut.ToList();
 
 
         }
