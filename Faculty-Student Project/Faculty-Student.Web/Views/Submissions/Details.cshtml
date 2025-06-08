@@ -1,0 +1,16 @@
+﻿@model SubmissionDto
+
+@{
+    ViewData["Title"] = "Submission Details";
+}
+
+<div class="container-fluid">
+    <h2 class="mb-4">Submission Details</h2>
+
+    <div class="card p-4 shadow">
+        <p><strong>Student:</strong> @Model.FullName</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Submitted At:</strong> @Model.SubmittedAt.ToString("g")</p>
+        <p><strong>File:</strong> <a href="@Model.FilePath" target="_blank">Open Submission</a></p>
+    </div>
+</div>

@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using Faculty_Student.Domain.Dtos;
 using Faculty_Student.Domain.Entities;
 using Faculty_Student.Domain.IRepositories;
 using Faculty_Student.Infrastructure.DbContext;
@@ -23,18 +24,20 @@ internal class SubmissionRepository(IDbContext _db, ILogger<SubmissionRepository
         }
     }
 
-    public async Task<SUBMISSIONS?> GetSubmissionByAssignmentIdAsync(int AssignmentId)
+   
+
+    public async Task<List<SUBMISSIONS?>> GetSubmissionByAssignmentIdAsync(int AssignmentId)
     {
         using (var connection = _db.CreateConnection())
         {
             _logger.LogInformation($"Getting Submission of Assignment id  {AssignmentId} from database");
 
-            return await connection.QueryFirstOrDefaultAsync<SUBMISSIONS>("sp_GetSubmissionByAssignment",
+            var result =  await connection.QueryAsync<SUBMISSIONS>("sp_GetSubmissionByAssignment",
                 new { ASSIGNMENTID = AssignmentId },
                 commandType: CommandType.StoredProcedure);
 
 
-
+            return result.ToList();
         }
     }
 
@@ -51,7 +54,12 @@ internal class SubmissionRepository(IDbContext _db, ILogger<SubmissionRepository
 
 
         }
+
+
     }
+
+   
+
 
     public async Task<int> InsertSubmissionAsync(SUBMISSIONS sUBMISSIONS)
     {
@@ -91,4 +99,7 @@ internal class SubmissionRepository(IDbContext _db, ILogger<SubmissionRepository
 
         }
     }
+
+    
+    
 }

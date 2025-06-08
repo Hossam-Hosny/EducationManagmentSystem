@@ -24,10 +24,11 @@
                     <td>@a.Title</td>
                     <td>@a.DueDateTime.ToString("g")</td>
                     <td>
-                        <a asp-controller="Submissions" asp-action="ListByAssignment"
+                        <a asp-controller="Submissions" asp-action="ListSubmissionsByAssignmentNo"
                            asp-route-assignmentId="@a.Id"
                            class="btn btn-info btn-sm">Enter</a>
                     </td>
+                   
                 </tr>
             }
         </tbody>

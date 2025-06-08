@@ -2,13 +2,14 @@
 using Faculty_Student.Application.Assessments.AssessmentCriteria.ServiceContracts;
 using Faculty_Student.Application.Assessments.AssessmentResult.Dtos;
 using Faculty_Student.Application.Assessments.AssessmentResult.ServiceContracts;
+using Faculty_Student.Application.Submissions.ServiceContracts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Faculty_Student.Web.Controllers
 {
     [Authorize(Roles = "Faculty")]
-    public class AssessmentController(IAssessmentCriteriaService _criteriaService,IAssessmentResultService _resultService) : Controller
+    public class AssessmentController(IAssessmentCriteriaService _criteriaService,IAssessmentResultService _resultService,ISubmissionService _submissionService) : Controller
     {
 
         [HttpGet]
@@ -50,27 +51,48 @@ namespace Faculty_Student.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> Grade(int submissionId, int assignmentId)
         {
-            ViewBag.AssignmentId = assignmentId;
-            ViewBag.SubmissionId = submissionId;
+            var submission = await _submissionService.GetByIdAsync(submissionId);
+            var criteriaList = await _criteriaService.GetByAssignmentAsync(assignmentId);
 
-            var criteria = await _criteriaService.GetByAssignmentAsync(assignmentId);
-            var results = await _resultService.GetBySubmissionAsync(submissionId);
+            if (submission == null || !criteriaList.Any())
+                return NotFound();
 
-            var gradedCriteriaIds = results.Select(r => r.CriteriaId).ToHashSet();
+            var model = new GradeSubmissionViewModel
+            {
+                Submission = submission,
+                AssignmentId = assignmentId,
+                CriteriaList = criteriaList.Select(c => new GradeCriteriaDto
+                {
+                    CriteriaId = c.CriteriaId,
+                    CriteriaName = c.CriteriaName,
+                    MaxScore = c.MaxScore
+                }).ToList()
+            };
 
-            var ungraded = criteria.Where(c => !gradedCriteriaIds.Contains(c.CriteriaId)).ToList();
-
-            ViewBag.ExistingResults = results;
-
-            return View(ungraded); 
+            return View(model);
         }
+
+       
 
         [HttpPost]
-        public async Task<IActionResult> SubmitGrade(CreateAssessmentResultDto dto, int assignmentId)
+        public async Task<IActionResult> SubmitGrades(int submissionId, int assignmentId, List<GradeCriteriaDto> grades)
         {
-            await _resultService.CreateAsync(dto);
-            return RedirectToAction("Grade", new { submissionId = dto.SubmissionId, assignmentId });
+            foreach (var grade in grades)
+            {
+                var resultDto = new CreateAssessmentResultDto
+                {
+                    SubmissionId = submissionId,
+                    CriteriaId = grade.CriteriaId,
+                    Score = grade.Score,
+                    Remark = grade.Remark
+                };
+
+                await _resultService.CreateAsync(resultDto);
+            }
+
+            return RedirectToAction("ListSubmissionsByAssignmentNo", "Submissions", new { assignmentId });
         }
+
 
 
         [HttpPost]

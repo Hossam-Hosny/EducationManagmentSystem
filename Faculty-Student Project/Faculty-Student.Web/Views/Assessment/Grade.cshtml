@@ -1,80 +1,37 @@
-﻿@model IEnumerable<AssessmentCriteriaDto>
+﻿@model GradeSubmissionViewModel
+
 @{
     ViewData["Title"] = "Grade Submission";
-    var assignmentId = ViewBag.AssignmentId;
-    var submissionId = ViewBag.SubmissionId;
-    var results = ViewBag.ExistingResults as IEnumerable<AssessmentResultDto>;
+    var sub = Model.Submission;
 }
 
 <div class="container-fluid">
     <h2 class="mb-4">Grade Submission</h2>
 
-    <!-- Ungraded Criteria (Create Result) -->
-    <h4>Pending Criteria</h4>
-    @if (!Model.Any())
-    {
-        <p class="text-muted">All criteria have been graded.</p>
-    }
+    <div class="card p-3 shadow-sm mb-4">
+        <p><strong>Student:</strong> @sub.FullName</p>
+        <p><strong>Submitted At:</strong> @sub.SubmittedAt.ToString("g")</p>
+        <p><strong>File:</strong> <a href="@sub.FilePath" target="_blank">View</a></p>
+    </div>
 
-    @foreach (var c in Model)
-    {
-        <form asp-action="SubmitGrade" method="post" class="card p-3 shadow-sm mb-3">
-            <input type="hidden" name="SubmissionId" value="@submissionId" />
-            <input type="hidden" name="CriteriaId" value="@c.CriteriaId" />
-            <input type="hidden" name="AssignmentId" value="@assignmentId" />
+    <form asp-action="SubmitGrades" method="post">
+        <input type="hidden" name="SubmissionId" value="@sub.SubmissionId" />
+        <input type="hidden" name="AssignmentId" value="@Model.AssignmentId" />
 
-            <div class="row align-items-end">
-                <div class="col-md-4">
-                    <label>@c.CriteriaName</label>
-                </div>
-                <div class="col-md-2">
-                    <input type="number" name="Score" max="@c.MaxScore" min="0" class="form-control" required />
-                </div>
-                <div class="col-md-4">
-                    <input type="text" name="Remark" class="form-control" placeholder="Optional remark" />
-                </div>
-                <div class="col-md-2">
-                    <button type="submit" class="btn btn-primary">Save</button>
-                </div>
-            </div>
-        </form>
-    }
+        <div class="card p-3 shadow-sm">
+            <h4 class="mb-3">Assessment Criteria</h4>
 
-    <!-- Already Graded -->
-    <h4 class="mt-5">Existing Results</h4>
-    @if (results.Any())
-    {
-        <table class="table table-striped shadow-sm">
-            <thead>
-                <tr>
-                    <th>Criteria</th>
-                    <th>Score</th>
-                    <th>Remark</th>
-                    <th>Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var r in results)
-                {
-                    <tr>
-                        <td>@r.CriteriaId</td>
-                        <td>@r.Score</td>
-                        <td>@r.Remark</td>
-                        <td>
-                            <form asp-action="DeleteResult" method="get" class="d-inline">
-                                <input type="hidden" name="id" value="@r.ResultId" />
-                                <input type="hidden" name="submissionId" value="@submissionId" />
-                                <input type="hidden" name="assignmentId" value="@assignmentId" />
-                                <button class="btn btn-danger btn-sm">Delete</button>
-                            </form>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    }
-    else
-    {
-        <p class="text-muted">No scores added yet.</p>
-    }
+            @for (int i = 0; i < Model.CriteriaList.Count; i++)
+            {
+                <div class="mb-3">
+                    <label><strong>@Model.CriteriaList[i].CriteriaName</strong> (Max: @Model.CriteriaList[i].MaxScore)</label>
+                    <input type="hidden" name="Grades[@i].CriteriaId" value="@Model.CriteriaList[i].CriteriaId" />
+                    <input type="number" name="Grades[@i].Score" class="form-control mt-1" placeholder="Score" max="@Model.CriteriaList[i].MaxScore" required />
+                    <input type="text" name="Grades[@i].Remark" class="form-control mt-2" placeholder="Remark (optional)" />
+                </div>
+            }
+
+            <button type="submit" class="btn btn-primary mt-3">Submit Grades</button>
+        </div>
+    </form>
 </div>

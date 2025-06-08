@@ -88,6 +88,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Software Engineer Assessment American University/Faculty-Student Project/Faculty-Student.Web/Views/Submissions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VibWlzc2lvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software Engineer Assessment American University/Faculty-Student Project/Faculty-Student.Web/Views/Submissions/ListSubmissionsByAssignmentNo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VibWlzc2lvbnNcTGlzdFN1Ym1pc3Npb25zQnlBc3NpZ25tZW50Tm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Software Engineer Assessment American University/Faculty-Student Project/Faculty-Student.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

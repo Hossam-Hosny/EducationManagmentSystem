@@ -1,0 +1,44 @@
+﻿@model IEnumerable<SubmissionDto>
+@{
+    ViewData["Title"] = "Submissions";
+    var assignmentId = ViewBag.AssignmentId;
+}
+
+<div class="container-fluid">
+    <h2 class="mb-4">Submissions for Assignment #@assignmentId</h2>
+
+    <table class="table table-bordered shadow-sm">
+        <thead class="thead-light">
+            <tr>
+                <th>Student</th>
+                <th>Email</th>
+                <th>Submitted At</th>
+                <th>File</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var sub in Model)
+            {
+                <tr>
+                    <td>@sub.FullName</td>
+                    <td>@sub.Email</td>
+                    <td>@sub.SubmittedAt.ToString("g")</td>
+                    <td>
+                        <a href="@sub.FilePath" target="_blank">View</a>
+                    </td>
+                    <td>
+                        <a asp-controller="Submissions" asp-action="Details"
+                           asp-route-submissionId="@sub.SubmissionId"
+                           class="btn btn-outline-secondary btn-sm">View</a>
+
+                        <a asp-controller="Assessment" asp-action="Grade"
+                           asp-route-submissionId="@sub.SubmissionId"
+                           asp-route-assignmentId="@assignmentId"
+                           class="btn btn-primary btn-sm ms-2">Give Grade</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
