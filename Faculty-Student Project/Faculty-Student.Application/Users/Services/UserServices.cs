@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Faculty_Student.Application.Users.Services;
 
-internal class UserServices
+public class UserServices
 (
                  IUserRepository _userRepository,
                  ILogger<UserServices> _logger
