@@ -1,6 +1,6 @@
-# 🎓 # EducationManagmentSystem
+# 🎓 # UniverisityManagmentSystem
 
-Welcome to the **# EducationManagmentSystem **, a web application built to make assignment sharing and student assessment simple, clear, and fast — for both faculty and students.
+Welcome to the **# UniverisityManagmentSystem **, a web application built to make assignment sharing and student assessment simple, clear, and fast — for both faculty and students.
 
 Built using **ASP.NET Core MVC**, **Clean Architecture**, and **SB Admin UI**, this project is designed with structure, maintainability, and real-world use in mind.
 
